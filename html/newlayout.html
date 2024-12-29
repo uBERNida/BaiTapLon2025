@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 4</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            background-color: rgb(137, 182, 244);
+        }
+        table {
+            width: 100%;
+        }
+        header, footer {
+            vertical-align: center;
+        }
+        nav {
+            height: 100%;
+        }
+        section{
+            background-color:rgb(137, 182, 244);
+            height: 100%;
+        }
+        article{
+            margin-top: 1px;
+            padding: 50px;
+            border: 1px solid black;
+            background-color: #fff0e6;
+    }
+    </style>
+</head>
+<body>
+    <head>layout 4</head>
+    <table style="width:100%">
+        <tr>
+            <td colspan="2"><header>header</header></td>
+        </tr>
+        <td><nav style="width: 30%">nav</nav></td>         
+            <td>
+                <section>
+                    section
+                    <article>
+                        article
+                    </article>
+                </section>
+            </td>
+            <tr>
+                <td colspan="2"><footer>footer</footer></td>
+            </tr>
+        
+    </table>
+</body>
+</html>
